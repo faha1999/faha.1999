@@ -86,14 +86,33 @@ img {
     margin-left: $mb-0-5;
     transition: 0.3s;
   }
-
-  .button--flex {
-    display: inline-flex;
-    align-items: center;
-  }
 }
 
 .button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+.button--small {
+  padding: 0.75rem 1rem;
+}
+
+.button--white {
+  background-color: #fff;
+  color: $first-color;
+
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.button--link {
+  padding: 0;
+  background-color: transparent;
+  color: $first-color;
+
+  &:hover {
+    background-color: transparent;
+    color: $first-color-alt;
+  }
 }

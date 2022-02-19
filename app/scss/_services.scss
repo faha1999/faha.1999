@@ -1,0 +1,97 @@
+.services_container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+
+  .services_content {
+    position: relative;
+    background-color: $container-color;
+    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .services_icon {
+      display: block;
+      font-size: 1.5rem;
+      color: $first-color;
+      margin-bottom: $mb-1;
+    }
+
+    .services_title {
+      font-size: $h3-font-size;
+      margin-bottom: $mb-1;
+      font-weight: $font-medium;
+    }
+
+    .services_button {
+      cursor: pointer;
+      font-size: $small-font-size;
+
+      &:hover .button_icon {
+        transform: translateX(0.45rem);
+      }
+    }
+
+    .services_modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: $z-modal;
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.3s;
+
+      &.active-modal {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      &-content {
+        position: relative;
+        background-color: $container-color;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+
+        .services_modal-title {
+          font-size: $h3-font-size;
+          font-weight: $font-medium;
+          margin-bottom: $mb-1-5;
+        }
+
+        .services_modal-close {
+          position: absolute;
+          top: 1rem;
+          right: 1rem;
+          font-size: 1.5rem;
+          color: $first-color;
+          cursor: pointer;
+        }
+
+        .services_modal-services {
+          row-gap: 1rem;
+          padding: 0;
+        }
+
+        .services_modal-service {
+          display: flex;
+        }
+
+        .services_modal-icon {
+          color: $first-color;
+          margin-right: $mb-0-5;
+        }
+      }
+    }
+  }
+}
