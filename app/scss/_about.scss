@@ -1,0 +1,44 @@
+.about {
+  .about_container {
+    .about_img {
+      width: 200px;
+      border-radius: 0.5rem;
+      justify-self: center;
+      align-self: center;
+    }
+
+    .about_data {
+      .about_description {
+        text-align: center;
+        margin-bottom: $mb-2-5;
+      }
+
+      .about_info {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: $mb-2-5;
+
+        .about_info-title {
+          font-size: $h2-font-size;
+          font-weight: $font-semi-bold;
+          color: $title-color;
+        }
+
+        .about_info-name {
+          font-size: $small-font-size;
+        }
+
+        .about_info-name,
+        .about_info-title {
+          display: block;
+          align-items: center;
+        }
+      }
+
+      .about_button {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
