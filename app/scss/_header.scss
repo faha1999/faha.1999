@@ -26,6 +26,10 @@
       color: $title-color;
       font-weight: $font-medium;
 
+      &.active-link {
+        color: $first-color;
+      }
+
       &:hover {
         color: $first-color;
       }
