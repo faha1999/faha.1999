@@ -5,6 +5,10 @@
   left: 0;
   z-index: $z-fixed;
   background-color: $body-color;
+
+  &.scroll-header {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .nav {
