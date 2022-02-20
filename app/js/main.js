@@ -90,8 +90,7 @@ modalCloses.forEach((modalClose) => {
 });
 
 // Start portfolio
-
-let swiperPortfolio = new Swiper('.swiper-container', {
+let swiperPortfolio = new Swiper('.portfolio_container', {
   cssMode: true,
   loop: true,
   autoplay: {
@@ -108,4 +107,25 @@ let swiperPortfolio = new Swiper('.swiper-container', {
   },
   mousewheel: true,
   keyboard: true
+});
+
+// testimonial
+var swiperTestimonial = new Swiper('.testimonial_container', {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 50,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true
+  },
+  breakpoints: {
+    568: {
+      slidesPerView: 2
+    }
+  }
 });
