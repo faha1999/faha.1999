@@ -116,3 +116,10 @@ img {
     color: $first-color-alt;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: $mb-1-5;
+    margin-right: $mb-1-5;
+  }
+}

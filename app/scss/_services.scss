@@ -95,3 +95,18 @@
     }
   }
 }
+
+@media screen and (max-width: 350px) {
+  .services_container {
+    grid-template-columns: max-content;
+    justify-content: center;
+
+    .services_content {
+      padding-right: 6rem;
+
+      .services_modal {
+        padding: 0 1rem;
+      }
+    }
+  }
+}

@@ -92,3 +92,13 @@
     transition: 0.3s;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .nav_menu {
+    padding: 2rem 0.25rem 4rem;
+  }
+
+  .nav_list {
+    column-gap: 0;
+  }
+}

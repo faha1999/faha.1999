@@ -48,3 +48,21 @@
     bottom: 0;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .testimonial_data,
+  .testimonial_header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial_img {
+    margin-right: 0;
+    margin-bottom: $mb-0-25;
+  }
+
+  .testimonial_data,
+  .testimonial_description {
+    text-align: center;
+  }
+}

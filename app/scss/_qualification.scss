@@ -72,3 +72,9 @@
 .qualification_buttons.qualification_active {
   color: $first-color;
 }
+
+@media screen and (max-width: 350px) {
+  .qualification_data {
+    gap: 0.5rem;
+  }
+}
