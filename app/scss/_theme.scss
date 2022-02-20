@@ -1,0 +1,17 @@
+.nav_btns {
+  display: flex;
+  align-items: center;
+
+  .change-theme {
+    font-size: 1.25rem;
+    color: $title-color;
+    margin-right: $mb-1;
+    cursor: pointer;
+
+    &:hover {
+      color: $first-color;
+    }
+  }
+}
+
+/* Variables Dark theme */
