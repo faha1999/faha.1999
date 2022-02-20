@@ -46,3 +46,27 @@
     }
   }
 }
+
+@media screen and (min-width: 568px) {
+  .contact_items {
+    display: flex;
+    justify-content: space-around;
+
+    .contact_information {
+      align-items: center;
+    }
+  }
+
+  .contact_form {
+    grid-template-columns: 1fr;
+
+    .contact_inputs {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .contact_button {
+    display: flex;
+    justify-content: center;
+  }
+}

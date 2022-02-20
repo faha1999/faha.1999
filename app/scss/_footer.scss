@@ -52,3 +52,22 @@
     color: #fff;
   }
 }
+
+@media screen and (min-width: 568px) {
+  .footer_container {
+    grid-template-columns: repeat(3, 1fr);
+
+    .footer_texts,
+    .footer_links,
+    .footer_socials {
+      text-align: center;
+      align-self: center;
+    }
+
+    .footer_socials {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+    }
+  }
+}

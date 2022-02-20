@@ -92,3 +92,20 @@
     }
   }
 }
+
+@media screen and (min-width: 568px) {
+  .home_content {
+    grid-template-columns: max-content 1fr 1fr !important;
+
+    .home_data {
+      grid-column: initial !important;
+      margin-left: 25px;
+      margin-top: 25px;
+    }
+
+    .home_img {
+      order: 1;
+      justify-self: center;
+    }
+  }
+}

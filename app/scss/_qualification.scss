@@ -78,3 +78,11 @@
     gap: 0.5rem;
   }
 }
+
+@media screen and (min-width: 568px) {
+  .qualification_section {
+    display: grid;
+    grid-template-columns: 0.8fr;
+    justify-content: center;
+  }
+}
