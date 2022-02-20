@@ -79,3 +79,15 @@
     align-items: center !important;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .portfolio_container {
+    margin-bottom: 2.5rem;
+  }
+
+  .portfolio_content {
+    column-gap: 5rem;
+    display: flex;
+    flex-direction: row !important;
+  }
+}

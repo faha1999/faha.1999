@@ -131,3 +131,20 @@
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .home_img {
+    .home_svg {
+      width: 320px !important;
+      fill: $first-color;
+
+      .home_svg-img {
+        width: 170px;
+      }
+    }
+  }
+
+  .home_social {
+    transform: translateX(-5rem);
+  }
+}

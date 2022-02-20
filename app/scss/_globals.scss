@@ -143,3 +143,11 @@ img {
     padding: 0 1rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  header,
+  main,
+  .footer_container {
+    padding: 0;
+  }
+}
