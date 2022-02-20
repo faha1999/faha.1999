@@ -55,3 +55,22 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .about_container {
+    column-gap: 5rem;
+
+    .about_img {
+      width: 350px !important;
+      height: 300px;
+    }
+
+    .about_description {
+      text-align: initial !important;
+    }
+
+    .about_info-title {
+      justify-content: space-between;
+    }
+  }
+}

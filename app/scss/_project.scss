@@ -51,3 +51,21 @@
     margin-top: 25px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .project {
+    text-align: initial;
+
+    .project_bg {
+      background: none;
+    }
+
+    .project_container {
+      background-color: $first-color-second;
+      border-radius: 1rem;
+      padding: 3rem 2.5rem 0;
+      grid-template-columns: 1fr max-content;
+      column-gap: 3rem;
+    }
+  }
+}

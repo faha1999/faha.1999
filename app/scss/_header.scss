@@ -102,3 +102,36 @@
     column-gap: 0;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 1rem 2rem !important;
+    top: 0;
+    bottom: initial;
+  }
+
+  .nav {
+    height: 4rem;
+    column-gap: 1rem;
+
+    .nav_list {
+      display: flex;
+      column-gap: 2rem;
+
+      .nav_link {
+        font-size: $h3-font-size;
+        font-weight: $font-semi-bold;
+      }
+    }
+
+    .nav_link-icon,
+    .nav_close,
+    .nav_toggle {
+      display: none;
+    }
+
+    .change-theme {
+      margin: 0;
+    }
+  }
+}

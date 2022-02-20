@@ -69,3 +69,13 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .portfolio_img {
+    width: 320px !important;
+  }
+
+  .portfolio_content {
+    align-items: center !important;
+  }
+}

@@ -123,3 +123,23 @@ img {
     margin-right: $mb-1-5;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .section {
+    padding: 8rem 0 2rem;
+  }
+  header,
+  main,
+  .footer_container {
+    padding: 0 1rem;
+  }
+}

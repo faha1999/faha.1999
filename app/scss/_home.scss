@@ -109,3 +109,25 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .home_container {
+    row-gap: 5rem;
+
+    .home_content {
+      padding-top: 5rem;
+      column-gap: 2rem;
+
+      .home_img {
+        .home_svg {
+          width: 270px;
+          fill: $first-color;
+
+          .home_svg-img {
+            width: 170px;
+          }
+        }
+      }
+    }
+  }
+}
