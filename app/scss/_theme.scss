@@ -15,3 +15,148 @@
 }
 
 /* Variables Dark theme */
+body.dark-theme {
+  $first-color-second: hsl($hue-color, 30%, 8%);
+  $title-color: hsl($hue-color, 8%, 95%);
+  $text-color: hsl($hue-color, 8%, 75%);
+  $input-color: hsl($hue-color, 29%, 16%);
+  $body-color: hsl($hue-color, 28%, 12%);
+  $container-color: hsl($hue-color, 29%, 16%);
+  $scroll-bar-color: hsl($hue-color, 12%, 48%);
+  $scroll-thumb-color: hsl($hue-color, 12%, 36%);
+
+  background-color: $body-color;
+  color: $text-color;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $title-color;
+  }
+
+  .nav_btns {
+    .change-theme {
+      color: $title-color;
+    }
+  }
+
+  .header.scroll-header {
+    box-shadow: 0 -1px 4px hsla(25, 79%, 52%, 0.342);
+  }
+
+  // header
+  .header {
+    background-color: $body-color;
+
+    .nav_link {
+      color: $title-color;
+
+      &.active-link {
+        color: $first-color;
+      }
+
+      &:hover {
+        color: $first-color;
+      }
+    }
+
+    .nav_logo,
+    .nav_toggle {
+      color: $title-color;
+
+      &:hover {
+        color: $first-color;
+      }
+    }
+
+    .nav_menu {
+      background-color: $body-color;
+    }
+  }
+
+  // home
+  .home {
+    .home_data {
+      .home_subtitle {
+        color: $text-color;
+      }
+    }
+  }
+
+  //about
+  .about {
+    .about_info {
+      .about_info-title {
+        color: $title-color !important;
+      }
+    }
+  }
+
+  // skills
+  .skills {
+    .skills_list {
+      .skills_percentage {
+        background-color: $first-color;
+      }
+    }
+  }
+
+  // services
+  .services_container {
+    .services_content {
+      background-color: $container-color;
+    }
+
+    .services_modal {
+      &-content {
+        background-color: $container-color;
+      }
+    }
+  }
+
+  // portfolio
+  .project {
+    .project_bg {
+      background-color: $first-color-second;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .project {
+      .project_bg {
+        background: none;
+      }
+
+      .project_container {
+        background-color: $first-color-second;
+      }
+    }
+  }
+
+  // contact
+  .contact_container {
+    .contact_content {
+      background-color: $input-color;
+
+      .contact_label {
+        color: $title-color;
+      }
+
+      .contact_input {
+        width: 100%;
+        background-color: $input-color;
+        color: $text-color;
+      }
+    }
+  }
+
+  // footer
+  .footer {
+    .footer_bg {
+      background-color: $first-color-second;
+    }
+  }
+
+  //
+}

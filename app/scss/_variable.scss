@@ -2,7 +2,7 @@
 
 $header-height: 3rem;
 
-$hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+$hue-color: 25; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
 $first-color: hsl($hue-color, 69%, 61%);
 $first-color-second: hsl($hue-color, 69%, 61%);
@@ -53,15 +53,4 @@ $z-modal: 1000;
     $small-font-size: 0.875rem;
     $smaller-font-size: 0.813rem;
   }
-}
-
-body.dark-theme {
-  $first-color-second: hsl($hue-color, 30%, 8%);
-  $title-color: hsl($hue-color, 8%, 95%);
-  $text-color: hsl($hue-color, 8%, 75%);
-  $input-color: hsl($hue-color, 29%, 16%);
-  $body-color: hsl($hue-color, 28%, 12%);
-  $container-color: hsl($hue-color, 29%, 16%);
-  $scroll-bar-color: hsl($hue-color, 12%, 48%);
-  $scroll-thumb-color: hsl($hue-color, 12%, 36%);
 }
